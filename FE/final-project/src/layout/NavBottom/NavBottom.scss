@@ -1,0 +1,23 @@
+.navBottom_header{
+    width: 100%;
+    height: 50px;
+    background-color: #E4DCC4;
+}
+.navBottom_list ul{
+    font-size: 18px;
+   color: #DB7093;
+    height: 50px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.navBottom_list ul a:hover{
+    color: rgb(92, 150, 92);
+    
+}
+@media only screen and (max-width: 990px) {
+    .navBottom_list ul{
+        font-size: 15px;
+    }
+}
